@@ -8,7 +8,7 @@ window.TrelloPowerUp.initialize({
             console.log(cards);
             return [
                 {
-                    text: getCardName,
+                    text: cards.name,
                     color: "pink"
                 }];
         });
